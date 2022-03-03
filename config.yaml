@@ -1,0 +1,32 @@
+baseURL: https://karl.exploit.to/
+languageCode: en-us
+title: Karl's Page
+
+# disable taxonomy pages
+taxonomies: []
+
+permalinks:
+  posts: /:year/:month/:title/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+  highlight:
+    style: friendly
+
+menu:
+  main:
+  # individual pages are added to menu in their front matter
+  - identifier: blog
+    name: Blog
+    url: https://karl.exploit.to/blog.html
+    rel: noopener
+    weight: 10
+  - identifier: github
+    name: GitHub
+    url: https://github.com/StasonJatham
+    weight: 20
