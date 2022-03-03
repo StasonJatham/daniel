@@ -1,6 +1,8 @@
-# My Home/Portfolio Page
+# opensource.twitter.dev
 
-I had to steal it from [@twitter](https://github.com/twitter/opensource-website). They have built the most beautiful page ever! Love it, big shout out, check out their OSS page [here](https://opensource.twitter.dev).
+[![status: active](https://opensource.twitter.dev/status/active.svg)](https://opensource.twitter.dev/status/#active)
+
+This is the Twitter Open Source website at https://opensource.twitter.dev.
 
 This site is built with [hugo], using a custom built-in theme.  Follow the
 standard instructions on the hugo website to [install] and [run] hugo.  Just
@@ -14,9 +16,3 @@ data].
 [install]: https://gohugo.io/getting-started/installing/
 [run]: https://gohugo.io/getting-started/usage/
 [update some repo data]: ./.github/workflows/update-data.yml
-
-
-### Cool workflow and actions stuff:
-- https://gohugo.io/hosting-and-deployment/hosting-on-github/
-- https://github.com/marketplace/actions/hugo-setup
-- https://github.com/marketplace/actions/github-pages-action

@@ -2,12 +2,12 @@
 title: Project Status
 ---
 
-Open source projects come in all shapes and sizes, and my projects are no
+Open source projects come in all shapes and sizes, and Twitter's projects are no
 exception. Sometimes we publish projects that are highly experimental or are in
 very early stages of development. Other times we publish some of the core
-infrastructure that is used to serve hundreds of millions of just me every day.
+infrastructure that is used to serve hundreds of millions of tweets every day.
 
-These project status labels, which you'll find attached to various of my
+These project status labels, which you'll find attached to various Twitter
 projects, are designed to help indicate how stable a project is and where it is
 in its development lifecycle. These are neither statements of value nor
 guarantees of support or future development. They are merely designed to provide
@@ -15,7 +15,7 @@ transparency.
 
 Questions about the status of individual projects are generally best directed to
 the project discussion forum or issue tracker. If those are unavailable, you can
-also email no one.
+also email opensource@twitter.com.
 
 
 **Project Statuses:**
@@ -39,15 +39,15 @@ This code is in the scoping or specification phase and may be accepting feedback
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
-- Typically hosted at my house.
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
+- Typically hosted in the [Twitter Incubator](https://github.com/twitter-incubator) GitHub org
 - (Optional) Issues at the project owner's discretion
 
 ### Markdown
 
 ```markdown
-[![status: idea](https://karl.exploit.to/status/idea.svg)](https://karl.exploit.to/status/#idea)
+[![status: idea](https://opensource.twitter.dev/status/idea.svg)](https://opensource.twitter.dev/status/#idea)
 ````
 
 Experimental
@@ -61,15 +61,15 @@ This code is not yet ready for prime time and may be actively seeking feedback. 
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
-- Typically hosted at my house
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
+- Typically hosted in the Twitter Incubator GitHub org
 - (Optional) Issues at the project owner's discretion
 
 ### Markdown
 
 ```markdown
-[![status: experimental](https://karl.exploit.to/status/experimental.svg)](https://karl.exploit.to/status/#experimental)
+[![status: experimental](https://opensource.twitter.dev/status/experimental.svg)](https://opensource.twitter.dev/status/#experimental)
 ````
 
 Active
@@ -83,9 +83,9 @@ This code is actively maintained and supported.
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
-- Is maintained by a Exploit.to engineering team
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
+- Is maintained by a Twitter engineering team
 - Issues and PR's managed in GitHub
 - For additional details on support options, see the Open Source Support Policy
 - An automated release pipeline
@@ -93,7 +93,7 @@ This code is actively maintained and supported.
 ### Markdown
 
 ```markdown
-[![status: active](https://karl.exploit.to/status/active.svg)](https://karl.exploit.to/status/#active)
+[![status: active](https://opensource.twitter.dev/status/active.svg)](https://opensource.twitter.dev/status/#active)
 ````
 
 Stable
@@ -107,17 +107,17 @@ This code is stable and not necessarily open to new features or functionality. I
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
-- Is maintained by a Exploit.to engineering team
-- Issues and PR's managed in GitHub
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
+- Is maintained by a Twitter engineering team
+- Issues and PR’s managed in GitHub
 - For additional details on support options, see the Open Source Support Policy
 - An automated release pipeline
 
 ### Markdown
 
 ```markdown
-[![status: stable](https://karl.exploit.to/status/stable.svg)](https://karl.exploit.to/status/#stable)
+[![status: stable](https://opensource.twitter.dev/status/stable.svg)](https://opensource.twitter.dev/status/#stable)
 ````
 
 Unmaintained
@@ -131,8 +131,8 @@ This code is no longer actively maintained nor supported. Possibly actively sear
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
 - Previous references to Support should be modified or removed from the README
 - May be transitioned to new maintainers
 - (Optional) Issues and PR's at the project owner's discretion
@@ -140,7 +140,7 @@ This code is no longer actively maintained nor supported. Possibly actively sear
 ### Markdown
 
 ```markdown
-[![status: unmaintained](https://karl.exploit.to/status/unmaintained.svg)](https://karl.exploit.to/status/#unmaintained)
+[![status: unmaintained](https://opensource.twitter.dev/status/unmaintained.svg)](https://opensource.twitter.dev/status/#unmaintained)
 ````
 
 Deprecated
@@ -154,7 +154,7 @@ This code has been identified to transition to RETIRED at some point in the futu
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
+- Complies with Twitter's legal and security requirements for open source software
 - Contains the appropriate Twitter open source category header in the repository's README file
 - Previous references to Support should be modified or removed from the README
 - Will be transitioned to RETIRED in the future
@@ -163,7 +163,7 @@ This code has been identified to transition to RETIRED at some point in the futu
 ### Markdown
 
 ```markdown
-[![status: deprecated](https://karl.exploit.to/status/deprecated.svg)](https://karl.exploit.to/status/#deprecated)
+[![status: deprecated](https://opensource.twitter.dev/status/deprecated.svg)](https://opensource.twitter.dev/status/#deprecated)
 ````
 
 Retired
@@ -177,15 +177,15 @@ This code is read-only. There is neither a maintainer nor any support.
 
 ### Requirements
 
-- Complies wth my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
 - Previous references to Support should be modified or removed from the README
 - Project is read-only and available for cloning only
 
 ### Markdown
 
 ```markdown
-[![status: retired](https://karl.exploit.to/status/retired.svg)](https://karl.exploit.to/status/#retired)
+[![status: retired](https://opensource.twitter.dev/status/retired.svg)](https://opensource.twitter.dev/status/#retired)
 ````
 
 Static
@@ -201,18 +201,18 @@ purposes.
 
 ### Requirements
 
-- Complies with my legal and security requirements for open source software
-- Contains the appropriate open source category header in the repository's README file
+- Complies with Twitter's legal and security requirements for open source software
+- Contains the appropriate Twitter open source category header in the repository's README file
 - (Optional) Issues at the project owner's discretion
 - (Optional) Project may be archived as read-only and only available for cloning
 
 ### Markdown
 
 ```markdown
-[![status: static](https://karl.exploit.to/status/static.svg)](https://karl.exploit.to/status/#static)
+[![status: static](https://opensource.twitter.dev/status/static.svg)](https://opensource.twitter.dev/status/#static)
 ````
 
 ---
 Thanks to [repostatus.org](https://www.repostatus.org/) and [New
-Relic](https://opensource.newrelic.com/oss-category/) for the inspiration, for [opensource.twitter.dev](https://opensource.twitter.dev) for this swagged out site and
+Relic](https://opensource.newrelic.com/oss-category/) for the inspiration, and
 [shields.io](https://shields.io/) for the badges.
